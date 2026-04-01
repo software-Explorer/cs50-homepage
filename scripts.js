@@ -133,7 +133,7 @@ document.addEventListener("DOMContentLoaded", function(){
 
 
                 three_d_cube.addEventListener('click', function(){
-                    window.location.href = "./3d/index.html";
+                    window.location.href = "./3d_cube/index.html";
                 });
 
                 tic_tac_toe.addEventListener('click', function(){
