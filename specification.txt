@@ -1,0 +1,23 @@
+html tags used:
+1. <span> </span>
+2. <b> </b>
+3. <table> </table>
+4. <h4> </h4>
+5. <img>
+6. <script> </script>
+7. <styles> </styles>
+8. <p> </p>
+9. <div> </div>
+10.<meta>
+
+
+styles properties:
+1. margin
+2. background-color
+3. font-size
+4. font-family
+5. transform
+6. border
+
+
+Bootstrap is used to add tooltip -> 'quack' to rubber ducky at bottom right corner in our index.html

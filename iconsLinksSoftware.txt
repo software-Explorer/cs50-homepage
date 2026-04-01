@@ -1,0 +1,24 @@
+./software-icons/paintNet.png
+./software-icons/lazpaint_icon.png
+./software-icons/tux_paint.png
+./software-icons/pivot_animator.png
+./software-icons/tupitube.jpg
+./software-icons/bosca ceoil.png
+./software-icons/beepbox.png
+./software-icons/pixitracker.png
+./software-icons/openshot_logo.png
+./software-icons/windows_movie_maker.jpeg
+./software-icons/anim8or.png
+./software-icons/seamless3d.png
+https://www.getpaint.net/
+https://lazpaint.github.io/
+https://tuxpaint.org/
+https://www.pivotanimator.net/
+https://www.tupitube.com/
+https://terrycavanagh.itch.io/bosca-ceoil
+https://www.beepbox.co/
+https://warmplace.ru/soft/pixitracker/
+https://www.openshot.org/
+https://www.majorgeeks.com/mg/getmirror/windows_live,1.html
+https://www.anim8or.com/
+https://www.seamless3d.com/

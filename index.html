@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+        <link href="./styles.css" rel="stylesheet">
+
+        <link href="./face.png" rel="icon" type="image/png">
+
+        <title>Simple, fun, useful and free creative softwares</title>
+    </head>
+
+
+    <body style="width:100vw; height:100vh">
+            <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js" integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y" crossorigin="anonymous"></script>
+
+            <script>
+            /*document.getElementById("cs50ducky").bootstrap.Tooltip();*/
+            /*bootstrap.Tooltip(new, document.getElementById("cs50ducky"));*/
+
+            document.addEventListener("DOMContentLoaded", function(){
+                           const softwareCell = document.querySelectorAll(".software");
+                           softwareCell.forEach(function(element){
+                            new bootstrap.Tooltip(element);
+                           });
+
+                           new bootstrap.Tooltip(document.getElementById("cs50ducky"));
+            });
+
+
+
+        </script>
+
+        <script src="./scripts.js"></script>
+        <script src="./progress_bar_animation.js"></script>
+
+
+        <div id = "cs50ducky" data-bs-title="quack" data-bs-toggle="tooltip" > <img alt="CS50 duck debugger" class="align-bottom mb-1 ps-1" src="./ddb50.gif" height=50px width="auto"></div>
+
+        <h1 style="text-align:center; color:white; background-color:hotpink;">Simple, fun, useful and free creative softwares for programmers and all.</h1>
+        <img style="display:block; margin:30px auto 50px; max-width:100%; height:auto" src="./my_banner.png"  alt="Simple banner for aesthetics"/>
+
+        <table class = "borders  colorBlendLinear" style="margin:200px auto 0;">
+            <tr><td class = "borders" style="padding-right:50px"><img src="./face.png" width=50px height=auto></td>   <td>Hi, I am <a href="./abtar_pahari.html">abtar.</a> I respect complex softwares but love simple and useful softwares. I want to share them with you all. Have a nice day !. :) </td></tr>
+        </table>
+        <div style="margin:auto; width:300px; margin-top:10px;">
+            <p id="we_are" style="padding-right:5px; transform:rotate(5deg);" >_We are_</p>  <span style="padding-right:10px"></span>
+            <p id="three_d_cube" style="transform:rotate(-5deg)">_3d Cube_</p> <span style="padding-right:10px"></span>
+            <p id="tic_tac_toe" style="transform:rotate(5deg)">_Tic Tac Toe_</p>
+        </div>
+
+
+
+        <table class = "borders colorBlendLinear" style="margin:20px auto 0" id = "softwares-names">
+            <thead class = "borders">    <td class = "borders"><b><u>type</u></b></td>    <td ></td>         <td><b><u>softwares</u></b></td>                  </thead>
+            <tr>     <td class = "borders"><b>photo/drawing</b></td>               <td class = "borders software" data-bs-html=true data-bs-toogle="tooltip" data-bs-title= "Developer: Rick Brewster and team<br>first released: 2004">Paint.net</td>        <td class = "borders  software"  data-bs-html="true" data-bs-toggle="tooltip" data-bs-title="Developer:circular (Fabien Wang) and team <br> first released: 2011">Lazpaint</td>  <td class = "borders software" data-bs-html="true" data-bs-toggle="tooltip" data-bs-title="Developer:Bill Kendrick and team <br> first released: 2002">TuxPaint</td>                </tr>
+            <tr>     <td class = "borders"><b>2d animation</b></td>                <td class = "borders software" data-bs-html="true" data-bs-toggle="tooltip" data-bs-title="Developer:Peter Bone and team <br> first released: 2001">Pivot animator 5</td> <td class = "borders software" data-bs-html="true" data-bs-toggle="tooltip" data-bs-title="Developer:Gustav Gonzalez and team <br> first released: 2010">Tupitube</td>                                   </tr>
+            <tr>     <td class = "borders"><b>music creation</b></td>              <td class = "borders software" data-bs-html="true" data-bs-toggle="tooltip" data-bs-title="Developer: Terry Cavanagh and team <br> first released: 2013">Bosca ceoil</td>      <td class = "borders software" data-bs-html="true" data-bs-toggle="tooltip" data-bs-title="Developer:John Nesky and team <br> first released: 2012">beepbox</td>    <td class = "borders software" data-bs-html="true" data-bs-toggle="tooltip" data-bs-title="Developer:Alexender Zolotov and team <br> first released: 2011">pixitracker </td>            </tr>
+            <tr style="border:2px solid black">    <td  class = "borders"><b>video editing</b></td>     <td class = "borders software" data-bs-html="true" data-bs-toggle="tooltip" data-bs-title = "Developer: Jonathan Thomas <br> first released: 2010">Openshot</td>         <td class = "borders software" data-bs-html="true" data-bs-toggle="tooltip" data-bs-title="Windows live division <br> first released: 2009">Windows movie maker</td>                                          </tr>
+            <tr>     <td class = "borders"><b>3d modeling and animation</b></td>   <td class = "borders software" data-bs-html="true" data-bs-toggle="tooltip" data-bs-title="Developer:Steven Glanville and team <br> first released: 1999">Anim8or</td>          <td class = "borders software" data-bs-html="true" data-bs-toggle="tooltip" data-bs-title="Developer:Gahram Marshall <br> first released: 2003">Seamless3d</td>                                                    </tr>
+
+        </table>
+
+
+        <div>
+            <img id="icon" height=auto width=100 style="display:inline-block; vertical-align:bottom;"/>
+            <h2 style="display:inline; vertical-align:bottom;" id = "title"></h2>
+        </div>
+        <p id="shortDescription"></p>
+        <div id="progress_bar" style="height:0.5%; width:0%; position:fixed; bottom:0; background:green;"></div>
+
+    </body>
+</html>

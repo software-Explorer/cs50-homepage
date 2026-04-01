@@ -1,0 +1,82 @@
+ <!DOCTYPE html>
+
+
+<html style>
+    <head>
+        <title>Tic-Tac-Toe</title>
+        <link href="./Tic_Tac_Toe" rel="icon" type="image/PNG">
+        <meta name="viewport" content="initial-scale=1, width=device-width">
+        <style>
+            table,tr,td {
+                border: 2px solid black;
+                box-sizing:border-box;
+            }
+
+             td{
+/*                 width:100px;
+                height:100px; */
+                width:33.33%;
+                height:33.33%;
+                text-align:center;
+                /* Use vmin so the font scales with the board size*/
+                font-size:8vmin;
+                padding:0;
+                box-sizing:border-box;
+
+            }
+
+            button {
+                background-color:lightBlue;
+                border: 2px solid black;
+            }
+
+            button:hover{
+                background-color:lightGreen;
+            }
+
+
+            p {
+                background-color:lightBlue;
+                display:inline-block;
+            }
+
+            p:hover {
+                background-color:lightGreen;
+            }
+        </style>
+
+        <script>
+            window.currentGameMode = null; // Can be 'human' or 'AI'
+            window.cells = [];
+            window.run = true;
+        </script>
+
+        <script src="./asthetics_and_gameMode.js"> </script>
+        <script src="./game_logic.js" > </script>
+        <script src="./game_logic_1.js" "></script>
+    </head>
+
+    <body>
+        <p>Homepage</p>
+        <div style="display:flex; flex-direction:column; justify-content:center; align-items:center; min-height:100vh; margin:0">
+            <div>
+                <h1 id="heading" style="font-family:Monospace; font-variant:small-caps; text-align:center; font-size:5vw">Hi! I Am AI. Can You Beat Me ?</h1>
+
+                <div style="display:flex; justify-content:center; align-items:center; gap:20px;" >
+                <button id="AI_mode"><span style="font-size:4vw">Play AI</span></button>
+                <table style="border-collapse: collapse; height:50vmin; width:50vmin; box-sizing:border-box;">
+                    <tr> <td id='1' class='cell'></td> <td id='2' class='cell'></td> <td id='3' class='cell'></td> </tr>
+                    <tr> <td id='4' class='cell'></td> <td id='5' class='cell'></td> <td id='6' class='cell'></td> </tr>
+                    <tr> <td id='7' class='cell'></td> <td id='8' class='cell'></td> <td id='9' class='cell'></td> </tr>
+                </table>
+                <button id="Easy_mode"><span style="font-size:4vw">Play easy</span></button>
+            </div>
+            <h2 id='result' style="font-family:cursive; text-align:center; font-size:5vmin"></h2>
+            </div>
+        </div>
+    </body>
+    </body>
+</html>
+
+
+

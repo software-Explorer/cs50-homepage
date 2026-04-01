@@ -1,0 +1,56 @@
+
+@media (max-width: 600px){
+    h1 {
+        font-size: 18px;
+    }
+
+    table {
+        margin: 20px auto 0 ! important;
+    }
+}
+
+.borders{
+    border : 2px solid black;
+}
+
+#cs50ducky {
+    position: fixed;
+    bottom:0;
+    right:0;
+}
+
+.colorBlendLinear{
+    background: linear-gradient(180deg, rgba(0, 0, 255, 0.15), rgba(100, 100, 255, 0));
+}
+
+
+td {
+    padding: 0 10px;
+}
+
+
+#softwares-names td:hover { /*indicating listed softwares can be clicked for further description*/
+    background: pink;
+}
+
+#softwares-names td:first-child:hover { /*ignoring first coloum to change color if hovered over it.*/
+   background: initial;
+}
+
+#softwares-names thead > tr:hover,
+#softwares-names thead > tr:hover > td {
+    background: initial;
+}
+
+
+/*Invites to other pages*/
+#three_d_cube, #tic_tac_toe, #we_are{
+background-color:lightBlue;
+display:inline-block;
+}
+
+#tic_tac_toe:hover, #three_d_cube:hover, #we_are:hover{
+background-color:lightGreen;
+display:inline-block;
+text-decoration:underline;
+}

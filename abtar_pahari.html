@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Hello, friend</title>
+        <link href="./face.png" rel="icon" type="image/png">
+        <script src="./oneliner_effect.js"></script>
+
+        <style>
+            p {
+                background-color:lightBlue;
+                display:inline-block;
+            }
+
+            p:hover {
+                background-color:lightGreen;
+            }
+        </style>
+    </head>
+
+    <body>
+        <p>Homepage</p>
+        <div style="display:flex; justify-content:center; align-items: center; height:100vh">
+            <h2 style="display:inline" id="finished_part_of_word"></h2>
+            <h2 style="display:inline" id="letter_animation"></h2>
+        </div>
+
+        <script>
+            document.querySelector('p').addEventListener('click', function(){
+                window.location.href = "./index.html";
+            });
+        </script>
+
+    </body>
+</html>
