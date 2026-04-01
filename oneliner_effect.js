@@ -105,7 +105,7 @@ document.addEventListener("DOMContentLoaded", function(){
             techy_vibe_for_a_word(who_am_I[Math.ceil(Math.random() * who_am_I.length)]);
 
              setTimeout(function(){
-                window.location.href = "https://glorious-bassoon-rq94wwr69jj3xxjg-8080.app.github.dev/homepage/abtar_pahari.html";
+                window.location.href = "https://software-explorer.github.io/cs50-homepage/abtar_pahari.html";
                 title.textContent = '';
             }, 5000);
 
